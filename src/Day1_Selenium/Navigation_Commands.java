@@ -2,7 +2,6 @@ package Day1_Selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 public class Navigation_Commands {
     public static void main(String[] args) {
         /*
@@ -10,7 +9,7 @@ public class Navigation_Commands {
         Navigate to URL: https://clarusway.com/
         Navigate to URL: http://amazon.com/
         Come back to the Clarusway using the back command.
-                Again go back to the amazon website using forward command
+        Again go back to the amazon website using forward command
         Refresh the Browser using refresh command.
         Close the Browser.
          */
@@ -27,7 +26,7 @@ public class Navigation_Commands {
         //İleri tuşuyla clarswaya geri döndük
         driver.navigate().forward();
 
-        //Sayfamızı kapattık
+        //Sayfamızı yeniledik
         driver.navigate().refresh();
 
         //Browser'ımızı kapattık

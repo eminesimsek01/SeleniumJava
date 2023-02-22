@@ -11,11 +11,10 @@ public class C01_ManageWindowCommands {
 //        Print the position and size of the page.
 //        Minimize the page.
 //        Wait 5 seconds in the icon state and maximize the page.
-//                Print the position and dimensions of the page in maximized state.
+//        Print the position and dimensions of the page in maximized state.
 //        Make the page fullscreen.
 //        Close the Browser.
 public static void main(String[] args) throws InterruptedException {
-
     System.setProperty("webdriver.chrome.driver", "Dependencies/drivers/chromedriver.exe");
     WebDriver driver = new ChromeDriver();
     driver.get("https://www.google.com/");
@@ -50,10 +49,8 @@ public static void main(String[] args) throws InterruptedException {
     System.out.println("Browserimizin genişliği= "+w);
 
     driver.manage().window().fullscreen();
-
     Thread.sleep(3000);
     driver.close();
     // driver.quit();
-
 }
 }

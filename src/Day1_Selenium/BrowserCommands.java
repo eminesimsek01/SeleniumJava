@@ -2,14 +2,13 @@ package Day1_Selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 public class BrowserCommands {
    /*
      Create main method
      Set Path
      Create chrome driver
      Open google home page: https://www.google.com
-             Get Title on page
+     Get Title on page
      Get Current URL on page
      Close/Quit the browser
     */
@@ -22,6 +21,5 @@ public class BrowserCommands {
        System.out.println("pageTitle = " + pageTitle);
        System.out.println("currentUrl = " + currentUrl);
        driver.quit();
-
    }
 }

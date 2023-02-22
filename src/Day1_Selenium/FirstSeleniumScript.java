@@ -2,7 +2,6 @@ package Day1_Selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 public class FirstSeleniumScript {
     /*
     2. Create main method.
@@ -19,6 +18,5 @@ public class FirstSeleniumScript {
         WebDriver driver=new ChromeDriver();
         //Adım 3: https://www.google.com adresini ziyaret ettik
         driver.get("https://www.google.com");
-
     }
 }
