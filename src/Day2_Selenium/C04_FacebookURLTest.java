@@ -2,7 +2,6 @@ package Day2_Selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 public class C04_FacebookURLTest {
 // Invoke Chrome Driver
 // Navigate to Facebook homepage URL: https://www.facebook.com/
@@ -32,6 +31,5 @@ public static void main(String[] args) throws InterruptedException {
 
     Thread.sleep(3000);
     driver.quit();
-
 }
 }

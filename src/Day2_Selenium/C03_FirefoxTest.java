@@ -2,14 +2,12 @@ package Day2_Selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 public class C03_FirefoxTest {
 //        Invoke FireFox Driver
 //        Go to https://www.youtube.com/
 //        Verify the page title contains the word video.
 //        Close the driver.
     public static void main(String[] args) throws InterruptedException {
-
         System.setProperty("webdriver.gecko.driver","Dependencies/drivers/geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.youtube.com/");
@@ -24,6 +22,5 @@ public class C03_FirefoxTest {
 
         Thread.sleep(3000);
         driver.quit();
-
     }
 }

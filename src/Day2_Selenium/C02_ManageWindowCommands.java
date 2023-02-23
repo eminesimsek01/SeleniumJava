@@ -4,7 +4,6 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 public class C02_ManageWindowCommands {
 // Go to the Amazon URL : https://www.amazon.com/
 // Print the position and size of the page.
@@ -12,7 +11,6 @@ public class C02_ManageWindowCommands {
 // Test that the page is in the position and size you want.
 // Close the page.
 public static void main(String[] args) throws InterruptedException {
-
     System.setProperty("webdriver.chrome.driver", "Dependencies/drivers/chromedriver.exe");
     WebDriver driver = new ChromeDriver();
     driver.get("https://www.amazon.com/");
@@ -49,6 +47,5 @@ public static void main(String[] args) throws InterruptedException {
 
     Thread.sleep(3000);
     driver.quit();
-
 }
 }
